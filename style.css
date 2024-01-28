@@ -30,7 +30,7 @@
 body {
     /* background: color image repeat position / size */
     background: var(--bg-url) no-repeat top center / cover;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 body * {
@@ -89,8 +89,6 @@ body * {
 }
 
 .light #switch button {
-    right: 0;
-    left: initial;
     animation: slide-in 0.2s forwards;
 }
 
@@ -109,6 +107,11 @@ body * {
     -webkit-backdrop-filter: blur(4px);
 }
 /* End of Switch */
+
+iframe {
+    margin: 25px auto 0;
+    width: 100%;
+}
 
 /* Links */
 ul {
