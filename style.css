@@ -30,7 +30,6 @@
 body {
     /* background: color image repeat position / size */
     background: var(--bg-url) no-repeat top center / cover;
-    /*height: 100vh;*/
 }
 
 body * {
@@ -41,7 +40,7 @@ body * {
 
 /* Container */
 #container {
-    width: 100%;
+    width: 80%;
     max-width: 588px;
     height: 712;
     margin: 56px auto 0;
@@ -58,6 +57,12 @@ body * {
     width: 112px;
     margin: auto;
     display: block;
+    transition: all 0.2s;
+}
+
+.light #profile img {
+    /*quero fazer um efeito de girar a imagem igual uma moeda*/
+    transform: rotateY(180deg);
 }
 
 #profile p {
